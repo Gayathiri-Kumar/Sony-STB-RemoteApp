@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Compat" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Slide" parent="@android:style/Animation.Activity" >
+        <item name="android:activityOpenEnterAnimation">@anim/left</item>
+        <item name="android:activityOpenExitAnimation">@anim/side</item>
+
+    </style>
+    <style name="CustomToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/start</item>
+    </style>
+
+</resources>
